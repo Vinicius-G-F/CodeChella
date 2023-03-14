@@ -1,0 +1,143 @@
+@import '../../estilos/variaveis';
+// invertido
+
+.topico--invertido {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    padding: 1em;
+    
+    &__imagem{
+        width: 100%;
+        height: 381px;
+    }
+    h3{
+        font-family: $fonte-texto;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+    }
+    p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+.topico {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    padding: 1em;
+    
+    &__imagem{
+        width: 100%;
+        height: 381px;
+    }
+    h3{
+        font-family: $fonte-texto;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+    }
+    p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .topico--invertido{
+        &__imagem{
+            width: 80%;
+            margin: 0 auto;
+        }
+        h3{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+        }
+    }
+}
+
+.topico{
+    &__imagem{
+        width: 80%;
+        margin: 0 auto;
+    }
+    h3{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    
+    .topico{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5vh 20vh 22vh;
+        margin-top: 2em;
+
+        &__imagem{
+            width: 100%;
+            margin: 0;
+            grid-column: 1/1;
+            grid-row: 1/3;
+        }
+        h3{
+            grid-column: 2/2;
+            grid-row: 1/1;
+        }
+        p{
+            grid-column: 2/2;
+            grid-row: 2/2;
+            text-align: left;
+        }
+        a{
+            grid-column: 2/2;
+            grid-row: 3/3;
+            margin-bottom: 2em;
+            width: 300px;
+        }
+    }
+
+    .topico:last-child{
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+    
+    .topico--invertido {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5vh 20vh 22vh;
+        margin: 8em 0;
+        
+        &__imagem{
+            width: 100%;
+            margin: 0;
+            grid-column: 2/2;
+            grid-row: 1/3;
+        }
+        h3{
+            grid-column: 1/1;
+            grid-row: 1/1;
+            
+            
+        }
+        p{
+            grid-column: 1/1;
+            grid-row: 2/2;
+            text-align: right;
+        }
+        
+    }
+
+}

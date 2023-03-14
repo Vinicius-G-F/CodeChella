@@ -1,0 +1,99 @@
+@import '../../estilos/variaveis';
+
+.cabecalho {
+    background-color: $azul-escuro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: relative;
+    div{
+        margin-right: 0.5em;
+        label {
+            cursor: pointer;
+        }
+        .menuHamburguer {
+            display: none;
+        }
+        .menuHamburguer:checked ~ nav {
+            z-index: 1;
+            top: 100%;
+            transition: 0.5s;
+        }
+        nav{
+            display: flex;
+            z-index: -1;
+            position: absolute;
+            flex-direction: column;
+            top: -90%;
+            right: 0%;
+            background-color: $azul-escuro;
+            padding: 0.5em;
+            text-align: center;
+            hr{
+                width: 7em;
+                color: white;
+            }
+            
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                padding-bottom: 0.2em;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho{
+        flex-direction: column;
+        align-items: flex-start;
+        
+        &__logo{
+            margin: 0 auto;
+
+        }
+        div{
+            label {
+                display: none;
+            }
+            nav {
+                z-index: 1;
+                position: static;
+                width: 93vw;
+                justify-content: space-between;
+                flex-direction: row;
+
+                a{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 40px;
+
+                }
+            }
+            hr{
+                display: none;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em 5em;
+        &__logo{
+            margin: 0;
+        }
+        div{
+            nav{
+                gap: 1.5em;
+                width: fit-content;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import '../../estilos/variaveis';
+
+.botao {
+    background-color: $azul-escuro;
+    display: flex;
+    color: white;
+    box-shadow: 4px 4px 0px #444444;
+    border-radius: 16px;
+    padding: 16px 0;
+    gap: 16px;
+    justify-content: center;
+    margin: 1em 1em;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+    .botao {
+        width:280px;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 1em auto;
+        flex-direction: row;
+        
+    }
+    
+}

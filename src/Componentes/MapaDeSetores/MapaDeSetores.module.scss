@@ -1,0 +1,42 @@
+@import '../../estilos/variaveis';
+
+.mapa {
+    img{
+        width: 100%;
+    }
+    &__legenda{
+        margin-left: 2em;
+        h3 {
+            margin: 1em 0;
+            font-family: $fonte-texto;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        div{
+            display: flex;
+            gap: 1em;
+            margin: 0.5em 0 ;
+            align-items: center;
+            p{
+                font-weight: 500;
+                font-size: 20px;
+            }
+            div {
+                width: 2em;
+                height: 2em;
+            }
+            .azul {
+                background-color: #0E7DF1;
+            }
+            .rosa {
+                background-color: #FE016E;
+            }
+            .verde{
+                background-color: #01A89E;
+            }
+            .roxo{
+                background-color: #3F51B5;
+            }
+        }
+    }
+}

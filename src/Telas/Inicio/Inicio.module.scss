@@ -1,0 +1,29 @@
+@import '../../estilos/variaveis';
+
+.inicio{
+    background: $cor-bg;
+    &__imagem {
+        background-image: url('./Imagem.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 190%;
+        
+        width: 100%;
+        height:50vw;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .inicio{
+        padding: 0 5em;
+        overflow: hidden;
+        &__imagem{
+            width: 100vw;
+            transform: translateX(-5em);
+            background-size: cover;
+            height: 30vw;
+        }
+    }
+
+}

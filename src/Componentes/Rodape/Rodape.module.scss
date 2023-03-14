@@ -1,0 +1,75 @@
+@import '../../estilos/variaveis';
+
+.rodape{
+    background-color: $cor-bg-amarelo;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    .container{
+        margin-top: 1em;
+        .imagens {
+            margin-top: 1em;
+            margin-bottom: 2em;
+        }
+
+    }
+    &__nota{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        p:last-child{
+            margin-left: 0.5em;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape{
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 1em;
+            .imagens{
+                display: flex;
+                gap: 0.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 5em 3em;
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-top: 3em;
+        img{
+            grid-column: 1/1;
+            grid-row: 1/1;
+        }
+        .container{
+            grid-column: 1/1;
+            grid-row: 2/2;
+            margin-top: 0;
+            justify-content: flex-start;
+        }
+        &__nota{
+            grid-column: 3/3;
+            grid-row: 1/2;
+            margin-top: 1.5em;
+            p{
+                margin-right: auto;
+            }
+            p:last-child{
+                margin-left: 0;
+            }
+        }
+        
+    }
+}
