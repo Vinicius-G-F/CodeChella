@@ -1,13 +1,20 @@
 @import '../../estilos/variaveis';
 
 .mapa{
-    text-align: center;
-    margin: 2em 1em;
+    background: $cor-bg;
     
-    h2{
+    &__titulo{
         font-weight: 700;
         font-size: 32px;
         font-family: $fonte-texto;
+        text-align: center;
+    }
+}
 
+@media screen and (min-width: 768px) {
+    .mapa {
+        &__titulo {
+            margin: 1em 0;
+        }
     }
 }
