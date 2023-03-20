@@ -60,6 +60,7 @@
             justify-content: flex-start;
         }
         &__nota{
+            flex-direction: column;
             grid-column: 3/3;
             grid-row: 1/2;
             margin-top: 1.5em;
@@ -71,5 +72,11 @@
             }
         }
         
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rodape__nota{
+        transform: translateX(40%);
     }
 }

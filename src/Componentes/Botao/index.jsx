@@ -4,7 +4,7 @@ import icone from './icone-botao.svg'
 
 export default function Botao() {
   return (
-    <a href='/' className={style.botao}>
+    <a href='/comprar-ingresso' className={style.botao}>
         Comprar ingresso!
         <img src={icone} alt='ticket'/>
     </a>

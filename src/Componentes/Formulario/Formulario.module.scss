@@ -1,0 +1,73 @@
+@import '../../estilos/variaveis';
+
+.formulario {
+    padding: 1em;
+    display: grid;
+    padding-bottom: 2em;
+    &__submeter{
+        background-color: $azul-escuro;
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        gap: 1em;
+        border: none;
+        box-shadow: 4px 4px 0px #000000;
+        border-radius: 16px;
+        padding: 16px 32px;
+        padding-right: 70px;
+        margin-top: 16px;
+        cursor: pointer;
+        background-image: url('./local_activity.svg');
+        background-repeat: no-repeat;
+        background-position-y: center ;
+        background-position-x: calc(100% - 24px);
+    }
+}
+
+.erros{
+    color: red;
+    text-align: center;
+    padding-bottom: 32px;
+    span{
+        p{
+            margin: 12px auto;
+        }
+        p::before{
+            content: '* ';
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formulario {
+        padding: 1em 48px;
+        padding-bottom: 48px;
+        div:nth-child(4){
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formulario{
+        padding: 1em 20%;
+        display: flex;
+        flex-wrap: wrap;
+        div{
+            width: 100%;
+        }
+        div:nth-child(3){
+            width: 48%;
+        }
+        div:nth-child(4){
+            width: 48%;
+            margin-left: auto;
+        }
+        &__submeter{
+            margin: 16px auto;
+        }
+    }
+}

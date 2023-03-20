@@ -1,0 +1,56 @@
+@import '../../estilos/variaveis';
+
+.ingresso{
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    padding: 64px 32px;
+    text-align: center;
+    &__cabecalho{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 32px;
+    }
+    div{
+        
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            padding: 8px 0;
+        }
+    }
+}
+
+h3{
+    font-family: $fonte-texto;
+    margin: 32px 0;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+    .ingresso{
+        &__container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 10vh 19vh;
+            img{
+                grid-column: 1/1;
+                grid-row: 1/2;
+                height: 29vh;
+            }
+            h3{
+                grid-column: 2/2;
+                grid-row: 1/1;
+                margin: 0;
+                text-align: left;
+            }
+            div{
+                grid-column: 2/2;
+                grid-row: 2/2;
+                margin: 0;
+                p{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

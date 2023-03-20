@@ -62,9 +62,11 @@
             nav {
                 z-index: 1;
                 position: static;
-                width: 93vw;
+                width: 90vw;
                 justify-content: space-between;
                 flex-direction: row;
+                margin: 0 16px;
+                box-sizing: border-box;
 
                 a{
                     font-weight: 700;

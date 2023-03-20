@@ -1,0 +1,41 @@
+@import '../../estilos/variaveis';
+
+.perguntas {
+    margin: 8px 16px;
+    div{
+        background-color: $azul-escuro;
+        padding: 0.5em;
+        display: flex;
+        gap: 8px;
+        cursor: pointer;
+        h3{
+            font-family: $fonte-texto;
+            font-weight: 700;
+            font-size: 32px;
+            color: white;
+        }
+        img{
+            margin-left: auto;
+            padding-right: 8px;
+        }
+    }
+    
+    p{
+        font-weight: 500;
+        font-size: 20px;
+        padding: 0.5em;
+        background-color: $cor-bg-azul;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .perguntas {
+        margin: 8px 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .perguntas{
+        margin: 8px 200px;    
+    } 
+}

@@ -19,9 +19,9 @@ export default function Cabecalho() {
             <hr />
             <a href='/mapa'>Mapa de Setores</a>
             <hr />
-            <a href='/'>Informações</a>
+            <a href='/informacoes'>Informações</a>
             <hr />
-            <a href='/'>Ingresso</a>
+            <a href='/comprar-ingresso'>Ingresso</a>
           </nav>
         </div>
     </header>

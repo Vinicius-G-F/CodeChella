@@ -1,0 +1,24 @@
+@import '../../estilos/variaveis';
+
+.informacoes {
+    padding-bottom: 32px;
+    background: $cor-bg;
+    &__titulo{
+        margin: 2em 0;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        padding: 0 3em;
+    }
+    a{
+        color: $cinza;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .informacoes {
+        &__titulo {
+            font-size: 48px;
+        }
+    }
+}

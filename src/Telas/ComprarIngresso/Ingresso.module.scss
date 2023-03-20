@@ -1,0 +1,20 @@
+@import '../../estilos/variaveis';
+
+.ingresso {
+    background: $cor-bg;
+    &__titulo{
+        font-size: 32px;
+        text-align: center;
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ingresso{
+        &__titulo{
+            font-size: 48px;
+            line-height: 62px;
+            margin: 32px auto;
+        }
+    }
+}
