@@ -1,5 +1,6 @@
 @import '../../estilos/variaveis';
 
+
 .cabecalho {
     background-color: $azul-escuro;
     display: flex;
@@ -30,6 +31,10 @@
             background-color: $azul-escuro;
             padding: 0.5em;
             text-align: center;
+            #sublinhado{
+                text-decoration: revert;
+            }
+            
             hr{
                 width: 7em;
                 color: white;

@@ -25,6 +25,9 @@
         background-position-y: center ;
         background-position-x: calc(100% - 24px);
     }
+    &__submeter:hover {
+        background-color: $azul-hover;
+    }
 }
 
 .erros{

@@ -3,6 +3,8 @@ import styles from './Cabecalho.module.scss'
 import logo from './Logo.svg'
 import menu from './menu.svg'
 
+const urlAtual = window.location.pathname
+
 export default function Cabecalho() {
   return (
     <header className={styles.cabecalho}>
@@ -15,13 +17,13 @@ export default function Cabecalho() {
           </label>
           <input className={styles.menuHamburguer} id='menu-hamburguer' type='checkbox' />
           <nav>
-            <a href='/experiencia'>A experiência</a>
+            <a id={(urlAtual === '/experiencia') ? styles['sublinhado'] : '' } href='/experiencia'>A experiência</a>
             <hr />
-            <a href='/mapa'>Mapa de Setores</a>
+            <a id={(urlAtual === '/mapa') ? styles['sublinhado'] : '' } href='/mapa'>Mapa de Setores</a>
             <hr />
-            <a href='/informacoes'>Informações</a>
+            <a id={(urlAtual === '/informacoes') ? styles['sublinhado'] : '' } href='/informacoes'>Informações</a>
             <hr />
-            <a href='/comprar-ingresso'>Ingresso</a>
+            <a id={(urlAtual === '/comprar-ingresso') ? styles['sublinhado'] : '' } href='/comprar-ingresso'>Ingresso</a>
           </nav>
         </div>
     </header>
