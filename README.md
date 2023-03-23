@@ -1,10 +1,6 @@
-<div id='top'>
-
 # CodeChella
 
-</div>
-
-Site fictício, feito com o intuito de praticar e fixar conhecimento.
+Projeto ministrado pela Alura, feito com o propósito de desafiar e instigar os alunos a praticarem aquilo que foi aprendido durante os cursos da escola de programação da Alura.
 
 | 🪧 Vitrine Dev |  |
 | ------------- | - |
@@ -17,9 +13,10 @@ Site fictício, feito com o intuito de praticar e fixar conhecimento.
 
 <div id="challenge"></div>
 
-## Detalhes do desafio
+## Detalhes do desafio front-end da Alura
 
-Esse desafio teve como foco ajudar no desenvolvimento das competencias esperadas de um desenvolver front-end.
+O projeto consta com um modelo do figma, cards do trello, lives semanalmente com intrutores e consultoria com outros alunos da Alura, para que os alunos possam exercitar e mostrar tudo aquilo que eles aprenderam durante seus estudos em um ambiente o mais próximo póssivel de um projeto real.
 
-Para tal foi utilizado o framework de javascript react dentre outras tecnologias voltadas para o front-end.
+Nele, os participantes são encorajados a utilizar tudo que aprenderam das tecnologias de front-end para tornar o site o mais fiel ao modelo do figma ou se assim desejar, fazer quaisquer alterações para deixar o projeto o mais original possível.
 
+Nesse projeto eu utilizei o react como framework javascript, junto com sass dentre outras tecnologias listadas acima.
