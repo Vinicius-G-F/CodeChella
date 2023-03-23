@@ -4,7 +4,7 @@
 
 </div>
 
-descrição aqui.
+Site fictício, feito com o intuito de praticar e fixar conhecimento.
 
 | 🪧 Vitrine Dev |  |
 | ------------- | - |
@@ -17,7 +17,9 @@ descrição aqui.
 
 <div id="challenge"></div>
 
-## Detalhes do projeto
+## Detalhes do desafio
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Esse desafio teve como foco ajudar no desenvolvimento das competencias esperadas de um desenvolver front-end.
+
+Para tal foi utilizado o framework de javascript react dentre outras tecnologias voltadas para o front-end.
 
