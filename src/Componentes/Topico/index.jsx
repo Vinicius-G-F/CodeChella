@@ -19,7 +19,7 @@ export default function Topico({children, imagem, estilo}) {
 
   }
 
-  console.log(estilosObjeto)
+
 
   return (
     <article className={style[estilosObjeto.topico]}>

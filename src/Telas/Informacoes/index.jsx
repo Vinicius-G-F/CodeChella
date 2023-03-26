@@ -1,6 +1,7 @@
 import Banner from 'Componentes/Banner'
 import style from './Informacoes.module.scss'
 import Perguntas from 'Componentes/Perguntas'
+import { Link } from 'react-router-dom'
 
 export default function Informacoes () {
     return (
@@ -10,7 +11,7 @@ export default function Informacoes () {
             </Banner>
             <h2 className={style.informacoes__titulo}>Perguntas Frequentes:</h2>
             <Perguntas pergunta='Quais serão as atrações?'>
-                <p>Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a href='/'>Confira o line-up em detalhes clicando neste link!</a>
+                <p>Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <Link to='/'>Confira o line-up em detalhes clicando neste link!</Link>
                 </p>
             </Perguntas>
             <Perguntas pergunta='Qual é a classificação etária?'>
