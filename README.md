@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# CodeChella
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto ministrado pela Alura, feito com o propósito de desafiar e instigar os alunos a praticarem aquilo que foi aprendido durante os cursos da escola de programação da Alura.
 
-## Available Scripts
+| 🪧 Vitrine Dev |  |
+| ------------- | - |
+| ✨ Nome       | **CodeChella 2023** - Challenge Alura |
+| 🏷️ Tecnologias | React, sass, html, react-routee-dom, JavaScript |
+| 🚀 URL         | **https://code-chella-black.vercel.app/** |
+| 🔥 Desafio     | [**Design no Figma**](https://www.figma.com/file/xHLPBeA2ujaXbBjHMK9xh7/CodeChella-%7C-Challenge-I---Front-end-2023) |
 
-In the project directory, you can run:
+![](./public/imagens/code-chella.png#vitrinedev)
 
-### `npm start`
+<div id="challenge"></div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Detalhes do desafio front-end da Alura
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O projeto consta com um modelo do figma, cards do trello, lives semanalmente com intrutores e consultoria com outros alunos da Alura, para que os alunos possam exercitar e mostrar tudo aquilo que eles aprenderam durante seus estudos em um ambiente o mais próximo póssivel de um projeto real.
 
-### `npm test`
+Nele, os participantes são encorajados a utilizar tudo que aprenderam das tecnologias de front-end para tornar o site o mais fiel ao modelo do figma ou se assim desejar, fazer quaisquer alterações para deixar o projeto o mais original possível.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Nesse projeto eu utilizei o react como framework javascript, junto com sass dentre outras tecnologias listadas acima.
