@@ -5,7 +5,7 @@ Projeto ministrado pela Alura, feito com o propósito de desafiar e instigar os 
 | 🪧 Vitrine Dev |  |
 | ------------- | - |
 | ✨ Nome       | **CodeChella 2023** - Challenge Alura |
-| 🏷️ Tecnologias | React, sass, html, react-routee-dom, JavaScript |
+| 🏷️ Tecnologias | React, sass, html, react-router-dom, JavaScript |
 | 🚀 URL         | **https://code-chella-black.vercel.app/** |
 | 🔥 Desafio     | [**Design no Figma**](https://www.figma.com/file/xHLPBeA2ujaXbBjHMK9xh7/CodeChella-%7C-Challenge-I---Front-end-2023) |
 
