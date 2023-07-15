@@ -15,7 +15,7 @@ Projeto ministrado pela Alura, feito com o propósito de desafiar e instigar os 
 
 ## Detalhes do desafio front-end da Alura
 
-O projeto consta com um modelo do figma, cards do trello, lives semanalmente com intrutores e consultoria com outros alunos da Alura, para que os alunos possam exercitar e mostrar tudo aquilo que eles aprenderam durante seus estudos em um ambiente o mais próximo póssivel de um projeto real.
+O projeto consta com um modelo do figma, cards do trello, lives semanalmente com instrutores e consultoria com outros alunos da Alura no discord, para que os alunos possam exercitar e mostrar tudo aquilo que eles aprenderam durante seus estudos em um ambiente o mais próximo possível de um projeto real.
 
 Nele, os participantes são encorajados a utilizar tudo que aprenderam das tecnologias de front-end para tornar o site o mais fiel ao modelo do figma ou se assim desejar, fazer quaisquer alterações para deixar o projeto o mais original possível.
 
